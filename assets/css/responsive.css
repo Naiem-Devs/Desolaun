@@ -1,0 +1,182 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .ppl_footer_right {
+        position: fixed;
+        bottom: 10px;
+        right: 20px;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .md2_menu ul {
+        width: 100%;
+        text-align: center;
+    }
+    .md_2last h2 {
+        margin-left: 20px;
+    }
+    footer.mb_1_footer {
+        position: fixed;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .ppl_footer_right {
+        position: fixed;
+        bottom: 10px;
+        right: 20px;
+    }
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
+
+
+@media (max-width: 400px) {
+    footer.mb_1_footer {
+        position: fixed;
+        bottom: 0;
+    }
+    .dsnfn.dns_mbl {
+        left: -70px;
+    }
+    .hd_top {
+        flex-wrap: wrap;
+    }
+    
+    .hd_top a {
+        margin-bottom: 10px;
+    }
+    .mb_home_menu ul {
+        width: 100%;
+        text-align: center;
+    }
+    .md_2_pera p{
+    font-size: 20px;
+}
+.md_2_pera{
+    padding: 40px 25px;
+}
+.md2_400{
+    padding-top: 70px;
+    margin-top: 44px;
+}
+.new_acord button.accordion-button{
+    font-size: 22px;
+    padding: 14px 20px;
+}
+.new_acord .accordion-body {
+    font-size: 20px;
+}
+
+.new_acord.Preguntas.md_2_pera_color button.accordion-button {
+    font-size: 20px;
+}
+
+.new_acord.Preguntas.md_2_pera_color h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.md4 p{
+    font-size: 20px;
+}
+.maestras {
+    margin: 60px 0 45px;
+}
+
+a.franssen {
+    font-size: 22px;
+}
+
+.md4 h5 a {
+    font-size: 22px;
+    margin: 30px 0;
+}
+
+.dsnfn_left.md4_contact .form_info p {
+    font-size: 14px;
+    margin: 30px 0;
+}
+
+.dsnfn_left.md4_contact textarea {
+    height: 200px;
+}
+
+.dsnfn_left.md4_contact .dsnfn_form_select a {
+    font-size: 20px;
+}
+
+.dsnfn_left.md4_contact h3 {
+    font-size: 24px;
+}
+
+.md4 {
+    padding: 30px 20px 10px;
+}
+.mb3_1 p {
+    font-size: 19px;
+}
+
+h2.rt_h2 {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul.TRANSF li a p {
+    font-size: 15px;
+}
+
+.mb3_1 img {
+    margin: 20px 0;
+}
+
+.otra a {
+    font-size: 22px;
+}
+
+.mb3_contact p {
+    font-size: 14px;
+}
+
+.mb3_contact p a {
+    font-size: 14px;
+}
+
+.mb3_contact h6 {
+    font-size: 15px;
+}
+
+img.cn_img1 {
+    top: -40px;
+    width: 92%;
+    left: 6px;
+}
+
+.local1 {
+    margin-bottom: 250px;
+}
+
+}
